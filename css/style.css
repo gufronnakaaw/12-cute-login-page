@@ -88,6 +88,10 @@ body, input {
   font-style: italic;
 }
 
+.container .form-container .cb-forgot a:hover {
+  color: #45a048;
+}
+
 .container .form-container .btn-submit {
   color: #f5efef;
   background-color: #45a048;
@@ -98,7 +102,7 @@ body, input {
   border-radius: 5px;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .container .form-container .btn-submit:hover {

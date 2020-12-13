@@ -90,6 +90,10 @@ body, input {
                 text-decoration: none;
                 color: black;
                 font-style: italic;
+
+                &:hover {
+                    color: #45a048;
+                }
             }
         }
 
@@ -104,7 +108,7 @@ body, input {
             border-radius: 5px;
             cursor: pointer;
             font-family: 'Poppins', sans-serif;
-            transition: 0.2s;
+            transition: 0.1s;
 
             &:hover {
                 background-color:#64b767;
